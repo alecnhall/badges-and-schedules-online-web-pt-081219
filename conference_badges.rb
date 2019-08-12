@@ -12,4 +12,5 @@ end
 
 def assign_rooms
   array.each_with_index do |name, index|
+  end
 end
