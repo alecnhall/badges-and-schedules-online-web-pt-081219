@@ -21,6 +21,6 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  badge_messages
-  room_assignments
+  badge_messages(array)
+  room_assignments(array)
 end
