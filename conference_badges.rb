@@ -22,7 +22,7 @@ end
 
 def printer(array)
   badge = batch_badge_creator(array)
-  room = assign_rooms(array)
   badge[0]
+  room = assign_rooms(array)
   room[0]
 end
