@@ -20,7 +20,7 @@ def assign_rooms(array)
   return room_assignments
 end
 
-def printer(array)
-  batch_badge_creator(array)
-  room_assignments(array)
+def printer
+  batch_badge_creator
+  room_assignments
 end
