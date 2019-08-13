@@ -21,8 +21,8 @@ def assign_rooms(array)
 end
 
 def printer(array)
+  badges = batch_badge_creator(array)
+  badges.each { |greeting| puts greeting}
   room = assign_rooms(array)
-  room.each do |n|
-    p n
-  end
+  room.each { |rooms| puts rooms}
 end
