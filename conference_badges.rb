@@ -21,5 +21,6 @@ def assign_rooms(array)
 end
 
 def printer(array, name)
-
+  if array.include(name)
+    
 end
