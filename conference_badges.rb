@@ -19,3 +19,8 @@ def assign_rooms(array)
   end
   return room_assignments
 end
+
+def printer
+  return badge_messages
+  return room_assignments
+end
