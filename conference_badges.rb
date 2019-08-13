@@ -22,5 +22,5 @@ end
 
 def printer(array)
   room = assign_rooms(array)
-  puts room [0]
+  p room [0]
 end
