@@ -22,5 +22,7 @@ end
 
 def printer(array)
   room = assign_rooms(array)
-  p room [0]
+  room.each do |n|
+    puts n
+  end
 end
